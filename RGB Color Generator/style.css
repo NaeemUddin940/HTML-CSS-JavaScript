@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body {
+height: 100%;
+width: 100%;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+#colorBox{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border: 2px solid black;
+    top: 0;
+    right: 100%;
+    margin: 20px auto;
+}
+
+#rgbValue{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+#copiedMessage{
+    color: green;
+    margin: 10px;
+}
